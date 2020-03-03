@@ -3,4 +3,5 @@ image: Visual Studio 2019
 build_script:
 - dotnet publish SimpleCoreApp20 -o .\out
 
-test: off
+test_script:
+- dir .\out
