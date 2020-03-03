@@ -1,0 +1,4 @@
+build_script:
+- dotnet publish SimpleCoreApp20 -o .\out
+
+test: off
