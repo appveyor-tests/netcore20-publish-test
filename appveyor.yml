@@ -1,7 +1,7 @@
 image: Visual Studio 2017
 
 build_script:
-- dotnet publish SimpleCoreApp20 -o .\out
+- dotnet publish SimpleCoreApp20 -o %APPVEYOR_BUILD_FOLDER%\out
 
 test_script:
 - dir .\out
